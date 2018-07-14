@@ -1,0 +1,46 @@
+doctype html
+html
+  head(lang='en')
+    title Smart Zero Home
+    link(rel='stylesheet', href='../stylesheets/styles.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+  body
+    .background-image
+    .content
+      .container-fluid
+        .jumbotron
+          h1 Best Design : Matching Products
+          p Best products in the market:
+        .row
+          .col-sm-2
+            center
+              button#btn_go.btn.btn-success.btn-block(type='button') Go
+              br
+              button#btn_buy1.btn.btn-success.btn-block(type='button') Frothpak
+              br
+              button#btn_infoURL.btn.btn-success.btn-block(type='button') Info
+              br
+              button#btn_allBest.btn.btn-success.btn-block(type='button') Insulation
+          .col-sm-1
+            .form-group
+              input#txt_dt1.form-control(type='text')
+              br
+              input#txt_dt2.form-control(type='text')
+              br
+          .col-sm-3
+            #txt_main2
+            br
+            img#ProductsImg.img-responsive(src='', width='70%')
+          .col-sm-3
+            #txt_inform
+            br
+            img#InfoImg.img-responsive(src='', width='90%')
+          .col-sm-3
+            #txt_main
+            br
+            br
+            img#BckImg.img-responsive(src='', width='70%')
+        .row
+    script(type='text/javascript', src='../javascripts/script.js')
